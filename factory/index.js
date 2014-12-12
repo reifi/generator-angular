@@ -11,7 +11,7 @@ util.inherits(Generator, ScriptBase);
 
 Generator.prototype.createServiceFiles = function createServiceFiles() {
   this.generateSourceAndTest(
-    'service/factoryOld',
+    'service/factory',
     'spec/service',
     'services',
     this.options['skip-add'] || false
